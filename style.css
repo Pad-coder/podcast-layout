@@ -1,1 +1,11 @@
-z.\
+.bg-red{
+    background-color: #DE8036FF;
+}
+
+.bg-color-red{
+    background-image: linear-gradient(to bottom right, #DE8036FF, rgb(128, 35, 2));
+}
+
+.bg-dark-red{
+    background-color: #4f060a;
+}
