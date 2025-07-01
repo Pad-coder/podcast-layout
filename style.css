@@ -1,11 +1,37 @@
-.bg-red{
-    background-color: #DE8036FF;
+.bg-black-body{
+    background-color: rgb(36, 34, 32);
 }
 
 .bg-color-red{
-    background-image: linear-gradient(to bottom right, #DE8036FF, rgb(128, 35, 2));
+    background-image: linear-gradient(to bottom, hsl(25.77deg 65.99% 51.57%), hsl(16.36deg 96.12% 20.2%));
 }
 
 .bg-dark-red{
-    background-color: #4f060a;
+    background-image: linear-gradient(to bottom, hsl(15.69deg 86.67% 14.71%), hsl(0deg 0% 7.06%));
+   
 }
+.bg-list{
+  
+    padding: 10px;
+    border-radius: px;
+    border-top: 1px solid rgb(50, 48, 46);
+}
+.bg-list:hover{
+    background-color: rgb(50, 48, 46);
+}
+.extra-text {
+      display: none;
+    }
+
+ .text-decoration{
+    text-decoration: none;
+ }
+ .text-decoration:hover{
+    text-decoration: underline;
+ }
+ .bg-footer{
+    background-color: rgb(36, 34, 32);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
